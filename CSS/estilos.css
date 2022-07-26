@@ -24,8 +24,71 @@ body{
 h1,h2,h3,h4,h5{
   font-family: 'Marcellus', serif;
 }
+/*Mobile first*/
+#nav{
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+.logo{
+  display: flex;
+  background-color: var(--negro2);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
 
+.logo i{
+  color: var(--blanco);
+  font-size: 2rem;
+}
+
+.logo img{
+  width: 40%;
+  max-width: 200px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(1, 10, 52, 0.838);
+}
+
+.menu-hr{
+  width: 90%;
+  background-color: var(--blanco);
+}
+
+.item{
+  padding: 1rem;
+}
+
+nav a{
+  color: var(--blanco);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-size: 1.3rem;
+}
+
+nav a:hover{
+  background-color: #0B3860;
+  width: 100%;
+}
+
+.navbar-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  padding:  0.5rem;
+  color: var(--blanco);
+  font-family: 'Marcellus', serif;
+  font-size: 1em;
+  cursor: pointer;
+}
 /*Barra de navegación*/
+/*
 nav{
   display: flex;
   align-items: center;
@@ -59,7 +122,7 @@ margin-right: 0.5rem;
 .logo img{
   height: 3rem;
 }
-
+*/
 /*Sección features*/
 
 #features{
@@ -83,10 +146,13 @@ margin-right: 0.5rem;
   background-color: rgba(0, 0, 0, 0.35);
   width: 100%;
   text-align: center;
-  font-size: 2.1em;
+  font-size: 2.7em;
   padding: 0.5rem 0;
+  font-weight: 300;
+  line-height: 100%;
 
 }
+
 
 .feature{
   text-align: center;
@@ -110,19 +176,53 @@ margin-right: 0.5rem;
 #description{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
+  justify-content: space-between; 
+  word-wrap: break-word;
+  padding: 3rem;
 
 }
 
-.descripcion p{
+.texto{
   display: flex;
-  flex-basis: 30%;
-  height: 200px;
-  width: 200px;
-  
+  flex-basis: 65%;
+  margin-left: 3%;
+  font-size: 1.05em;
 }
-p{}
-.imagendescription{
-  flex-basis: 70%;
+
+.imagen{
+  display: flex;
+  flex-basis: 20%;
+  width: 100px;
+  height: 200px;
+  justify-content: start;
+
+}
+
+/*Portada*/
+#portada{
+  display: flex;
+  background-image: url(../IMG/index/slide1.jpg);
+  height: 37rem;
+  background-size: 100% 100%;
+  align-items: flex-end;
+}
+
+.segundotitulo{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 32%;
+  align-items: center;
+  color: var(--blanco);
+  font-size: 2.7em;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+#segundotitulooo{
+display: flex;
+width: 50%;
+height: 100%;
+padding: 3rem;
+padding-top: 5rem;
 }
