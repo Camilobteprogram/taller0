@@ -274,3 +274,44 @@ height: 100%;
 padding: 3rem;
 padding-top: 5rem;
 }
+
+/*Ubicanos*/
+
+.ubicar{
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 7%;
+}
+.direccion{
+  font-family: 'Marcellus', serif;
+  text-align: center;
+}
+.linea{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+.mapa-hr{
+  width: 700px;
+  height: 0.1%;
+  border-color: var(--verdeazul);
+  color: #0B3860;
+  
+}
+
+.ubicacion h2{
+  padding-bottom: 5%;
+}
+
+/*Opinones*/
+.titulo-opinon{
+  display: flex;
+background-color: var(--negro);
+color: white;
+font-size: 2rem;
+justify-content: center;
+height: 12rem;
+}
+.titulo-opinon h1{
+  padding-top: 1%;
+}
