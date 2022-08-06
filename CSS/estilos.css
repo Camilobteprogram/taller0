@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5{
   background-image: url(../IMG/index/bg-features.png);
   
 }
+
 .logo{
   display: flex;
   background-color: var(--negro2);
@@ -56,7 +57,7 @@ h1,h2,h3,h4,h5{
   align-items: center;
   background-color: rgba(1, 10, 52, 0.838);
   /*para desabilitarlo*/
-  display: none;
+
 }
 
 .menu-hr{
@@ -306,12 +307,131 @@ padding-top: 5rem;
 /*Opinones*/
 .titulo-opinon{
   display: flex;
-background-color: var(--negro);
+background-color: rgb(37, 36, 36);
 color: white;
 font-size: 2rem;
 justify-content: center;
-height: 9rem;
+height: 12rem;
 }
 .titulo-opinon h1{
   padding-top: 1%;
+}
+
+.comentarios{
+  display: flex;
+  flex-direction: row;
+  
+  height: 100%;
+  justify-content: space-around;
+}
+.etiqueta{
+  background-color: var(--azuloscuro); 
+ background-image: url(../IMG/opinion/Vector-opinion.png);
+ max-width: 43.8%;
+ 
+}
+.encabezado{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 72.8%;
+  max-height: 30%;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.encabezado img{
+ border-radius: 100%;
+ width: 15%;
+ height: 15%;
+}
+.encabezado p{
+  color: white;
+  font-family: 'Marcellus', serif;
+}
+
+.columnasss{
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15%;
+}
+
+.textooo{
+  color: white;
+  font-family: 'Marcellus', serif;
+  word-wrap: break-word;
+  padding: 2%;
+  align-items: center;
+}
+
+/*Estrellas*/
+
+.clasificacion label {
+  font-size: 20px;
+}
+
+.clasificacion input[type="radio"] {
+  display: none;
+}
+
+.clasificacion label {
+  color: rgb(255, 255, 255);
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label {
+  color: rgb(148, 49, 24);
+}
+
+.clasificacion input[type="radio"]:checked ~ label {
+  color: rgb(148, 49, 24);
+}
+
+/*Footer*/
+footer{
+  background-color: rgb(37, 36, 36);
+  color: var(--blanco);
+  display: flex;
+  flex-direction: row;
+  height: 10rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.alinear{
+  display: flex;
+  flex-direction: row;
+  padding: 3.5%;
+}
+
+footer p{
+  margin-left: 4%;
+}
+
+footer div{
+  width: 20rem;
+}
+
+.iconoss{
+  margin-left: 4%;
+
+}
+
+.iconoss i{
+  padding: 3%;
+}
+
+.primercontenido{
+  margin-top: 1%;
+}
+
+.politicas p{
+  padding: 4%;
 }
