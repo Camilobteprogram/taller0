@@ -560,7 +560,7 @@ select {
   width: 100%;
   height: auto;
   min-height: 100vh;
-  background-image: url(../img/bg-register.jpg);
+  background-image: url(../IMG/Bogota-city-e1619438095328.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: grid;
@@ -646,6 +646,25 @@ input[type="checkbox"] {
   display: grid;
   place-content: center;
 }
+
+.botonradio{
+  display: flex;
+  padding: 15%;
+  
+}
+.botonradio p{
+  padding: 20px;
+  padding-top: 0;
+}
+.opciones{
+  display: flex;
+}
+.opciones input{
+  padding-left: 15%;
+}
+.terminosycon{
+  padding: 5%;
+}
 /* Modal */
 .modal {
   position: fixed;
@@ -670,6 +689,7 @@ input[type="checkbox"] {
   --transform: translateX(0);
   --transition: transform 0.8s 0.8s;
 }
+
 
 .modal_container {
   margin: auto;
