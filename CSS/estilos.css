@@ -271,7 +271,7 @@ padding-top: 1%;
   margin: 30px 0;
 }
 .vote {
-  background-image: url(../img/Group\ 200.svg);
+  background-image: url(../IMG/opinion/Vector-opinion.png);
   background-repeat: no-repeat;
   width: 450px;
   min-width: 250px;
@@ -839,7 +839,7 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   color: var(--blanco);
-  background-image: url(../img/Group\ 200.svg);
+  background-image: url(../IMG/opinion/Vector-opinion.png);
   background-size: cover;
 }
 .sidebar_logo_2{
