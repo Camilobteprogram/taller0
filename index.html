@@ -1,132 +1,205 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
-    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
-    <title>Hotelia</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="CSS/estilos.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6131ecdde6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Taller 0 Maquetación Responsive</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <img src="IMG/Hotelia horizontal blanco.svg">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        
-        <div class="menu">
-            <a href="index.html" class="item">Inicio</a>
-            <a href="ubicanos.html" class="item">Ubícanos</a>
-            <a href="opiniones.html" class="item">Opiniones</a>
-            <hr class="menu-hr" noshade="">
-            <a href="#" class="item"><button class="navbar-button"><i class="fa-solid fa-user"></i> Iniciar Sesión</button></a>
-        </div>
+      <div class="logo">
+        <img src="IMG/Hotelia horizontal blanco.svg" />
+        <i class="fa-solid fa-bars" id="icon"></i>
+      </div>
+
+      <div class="menu" id="menu">
+        <a href="index.html" class="item">Inicio</a>
+        <a href="ubicanos.html" class="item">Ubícanos</a>
+        <a href="opiniones.html" class="item">Opiniones</a>
+        <a href="./login.html" class="item"
+          ><button class="navbar-button">
+            <i class="fa-solid fa-user"></i> Iniciar Sesión
+          </button></a
+        >
+      </div>
     </nav>
-<img src="IMG/index/bg-features.png" width="1024" class="img fondo">
-
-
-<section id="portada">
-<div class="segundotitulo"><div id="segundotitulooo"><p>Lorem ipsum dolor sit ameteliter, consectetur adipiscing elit.</p></div></div>
-</section>
-
-    <section id="description">
-        <div class="texto">
-            <p>Estamos ubicados en el barrio La Cabrera al norte de Bogotá, en un contexto de lujo donde interactúan los negocios, el ocio y el descanso, gracias a su estratégica ubicación rodeada de bancos, restaurantes de alta cocina, centros comerciales, almacenes de lujo y emblemáticos parques para aprovechar la naturaleza entre la ciudad, caminar y hacer un poco de deporte al aire libre están el parque del Virrey y El Parque de la 93. Además de nuestro exclusivo diseño, ponemos a tu disposición una oferta gastronómica tan sofisticada como saludable a base de productos locales, cargados de lo mejor de la tradición colombiana.</p>
-        </div>
-        <div class="imagen">
-            <img src="IMG/Hotelia negro vertical.svg">
-        </div>
-    </section>
+    <!-- Home -->
     
+    <section id="portada" >
+        <div class="segundotitulo"><div id="segundotitulooo"><p>Lorem ipsum dolor sit ameteliter, consectetur adipiscing elit.</p></div></div>
+        </section>        
+    <!-- Datos -->
+    <section class="information">
+      <p class="paragraph-information">
+        Estamos ubicados en el barrio La Cabrera al norte de Bogotá, en un contexto de lujo donde interactúan los negocios, el ocio y el descanso, gracias a su estratégica ubicación rodeada de bancos, restaurantes de alta cocina, centros comerciales, almacenes de lujo y emblemáticos parques para aprovechar la naturaleza entre la ciudad, caminar y hacer un poco de deporte al aire libre están el parque del Virrey y El Parque de la 93. Además de nuestro exclusivo diseño, ponemos a tu disposición una oferta gastronómica tan sofisticada como saludable a base de productos locales, cargados de lo mejor de la tradición colombiana.
+      </p>
+      <img
+        src="IMG/Hotelia negro vertical.svg"
+        alt="logo"
+        width="200"
+      />
+    </section>
     <section id="features">
-        <h2 class="features-title">Razones  por  las  que  disfrutarás  quedarte  con  nosotros</h2>
-        <div class="features-description">
-            <div class="feature feature-blue">
-                <i class="fa-solid fa-bell-concierge"></i>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="feature feature-black">
-                <i class="fa-solid fa-bed"></i>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="feature feature-blue">
-                <i class="fa-solid fa-wifi"></i>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="feature feature-black">
-                <i class="fa-solid fa-dumbbell"></i>
-                <p>Lorem ipsum dolor</p>
-            </div>
+      <h2 class="features-title">
+        Razones por las que disfrutarás quedarte con nosotros
+      </h2>
+      <div class="features-description">
+        <div class="feature feature-blue">
+          <i class="fa-solid fa-bell-concierge"></i>
+          <p>Lorem ipsum dolor</p>
         </div>
+        <div class="feature feature-black">
+          <i class="fa-solid fa-bed"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="feature feature-blue">
+          <i class="fa-solid fa-wifi"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="feature feature-black">
+          <i class="fa-solid fa-dumbbell"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+      </div>
     </section>
-    
-    <section class="ubicacion">
-        <h1 class="ubicar">Ubícanos</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9644120169733!2d-74.07746738517929!3d4.600397243799922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7147877c9%3A0x378b95e9cbda0740!2sCra.%208%20%2312a-42%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1659456074263!5m2!1ses!2sco" width="94.2%" height="400" style="border:0; padding: 2.8%; padding-top: 1%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h1 class="direccion">AVENIDA CARRERA 8, #12A-42, BOGOTA DC, COLOMBIA</h1>
-        <div class="linea">
-        <hr class="mapa-hr" noshade="">
-    </div>
-        <h2 class="direccion">+57 601 4567899</h2>
+    <section class="ubication">
+      <h2 class="ubication-title">Ubícanos</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9644120170606!2d-74.07747274990444!3d4.600397243784256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7147877c9%3A0x378b95e9cbda0740!2sCra.%208%20%2312a-42%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1658888158387!5m2!1ses!2sco"
+        height="500"
+        style="border: 0; width: 100%"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <h3 class="adress">AVENIDA CARRERA 8 #12A-42, BOGOTÁ DC, COLOMBIA</h3>
+      <h3 class="number">+57 6014567899</h3>
     </section>
-
-    <section>
-        <div class="titulo-opinon">
-        <h1>Nuestros usuarios dicen...</h1>
-        </div>
-       <div class="comentarios">
-        <div class="etiqueta">
-            <div class="encabezado">
-                <img src="IMG/opinion/user1.png">
-                <div class="columnasss">
-                    <div class="nombre">
-                <p>Diego Rodriguez</p>
+    <!-- Cards -->
+    <section class="starred">
+      <h1 class="title-starred">Nuestros usuarios dicen...</h1>
+      <div class="container-votes">
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="IMG/opinion/user1.png"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+              <h6 class="name-vote">Diego Rodriguez</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star" id="icon-star"></i></span>
+              </p>
             </div>
-                <p class="clasificacion">
-                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
-                    --><label for="radio1">★</label><!--
-                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
-                    --><label for="radio2">★</label><!--
-                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
-                    --><label for="radio3">★</label><!--
-                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
-                    --><label for="radio4">★</label><!--
-                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
-                    --><label for="radio5">★</label>
-                  </p>
-            </div>
-            </div>
-            <div class="textooo"><p>Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.</p></div>
+          </div>
+          <p class="description-vote">
+            Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.
+          </p>
         </div>
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="IMG/opinion/user2.png"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+              <h6 class="name-vote">Diana García</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+          <p class="description-vote">
+            Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.
+          </p>
         </div>
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="IMG/opinion/user3.png"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+                <!--Persona añadida para colocar la imagen sobrante-->
+              <h6 class="name-vote">Oscar Balderrama</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star" id="icon-star"></i></span>
+              </p>
+            </div>
+          </div>
+          <p class="description-vote">
+            Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.
+          </p>
+        </div>
+      </div>
     </section>
+    <div class="votes"></div>
 
     <footer>
-<div class="primercontenido">
-    <p>Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.</p>
-    <div class="iconoss">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
+      <div class="textofooter">
+        <p>Lore ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultrices ullamcorper. Nuc aenean auctor vel diam dictum.</p>
+        <div class="iconoss">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>    
     </div>
-</div>
-
-<div>
-    <div class="alinear">
-    <i class="fa-solid fa-location-dot"></i>
-    <p>Avenida carrera 8, #12A-42, Bogotá DC, Colombia</p>
-</div>
-<div  class="alinear">
-    <i class="fa-solid fa-phone"></i>
-    <p>+57 601 4567899</p>
-</div>
-</div>
-<div class="politicas">
-    <p>Politicas de privacidad</p>
-    <p>Politicas de privacidad</p>
-</div>
+    <div>
+        <div class="alinear">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Avenida carrera 8, #12A-42, Bogotá DC, Colombia</p>
+    </div>
+    <div  class="alinear">
+        <i class="fa-solid fa-phone"></i>
+        <p>+57 601 4567899</p>
+    </div>
+    </div>
+    
+      <div class="politicas">
+        <p>Politica de privacidad</p>
+        <p>Politica de privacidad</p>
+      </div>
     </footer>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const hamburguer = document.getElementById("icon");
+      const menu = document.getElementById("menu");
+      hamburguer.addEventListener("click", (e) => {
+        menu.classList.toggle("show-menu");
+        console.log("click");
+      });
+    </script>
+  </body>
 </html>
